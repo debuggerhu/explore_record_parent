@@ -1,0 +1,4 @@
+# Project exclude paths
+/explore_record_common/target/
+/explore_record_eureka/target/
+/explore_record_stream/target/

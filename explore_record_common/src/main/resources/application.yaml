@@ -1,0 +1,7 @@
+spring:
+  profiles:
+    active: '@env@'
+
+feign:
+  okhttp:
+    enabled: false

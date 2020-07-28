@@ -1,0 +1,11 @@
+objectStorage:
+  provider: ${OBJECT_STORAGE_PROVIDER:aws}
+  type: ${OBJECT_STORAGE_TYPE:S3}
+  endpoint: ${OBJECT_STORAGE_ENDPOINT:https://s3.cn-north-1.amazonaws.com.cn}
+  bucket: ${OBJECT_STORAGE_BUCKET:wisonic-test}
+  accessKey: ${OBJECT_STORAGE_ACCESS_KEY:AKIAOEIHWC7FS56R623Q}
+  secretKey: ${OBJECT_STORAGE_SECRET_KEY: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}
+  region: ${OBJECT_STORAGE_REGION:cn-north-1}
+  roleArn: ${OBJECT_STORAGE_ROLE_ARN:arn:aws-cn:iam::420307409653:role/us-device-role}
+  keyDuration: ${OBJECT_KEY_DURATION:3600}
+  host: ${OBJECT_STORAGE_HOST:${objectStorage.bucket}.s3.cn-north-1.amazonaws.com.cn}

@@ -1,0 +1,8 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.hhx.common.config.CommonsRequestLoggingConfig, \
+  com.hhx.common.config.RestTemplateConfig, \
+  com.hhx.common.config.HttpUtilConfig, \
+  com.hhx.common.config.UtilConfig, \
+  com.hhx.common.config.WebConfig, \
+  com.hhx.common.config.security.SecurityConfiguration, \
+  com.hhx.common.config.ObjectStorageConfiguration
