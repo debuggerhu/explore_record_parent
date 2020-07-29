@@ -37,3 +37,20 @@ public class B extends A{
           a = new A();
     }
 }
+
+
+
+//class A {
+//    public A(String aaa){
+//        System.out.println(aaa+"父类--(args)有参--构造");
+//    }
+//    public A(){
+//        System.out.println("父类--()无参--构造");
+//    }
+//}
+//public class B extends A{
+//
+//    public  B(){
+//        super();
+//    }
+//}
